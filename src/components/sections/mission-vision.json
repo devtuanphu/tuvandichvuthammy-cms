@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_mission_visions",
+  "info": {
+    "displayName": "Mission Vision",
+    "icon": "eye",
+    "description": "Mission and vision section"
+  },
+  "options": {},
+  "attributes": {
+    "missionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "missionContent": {
+      "type": "richtext"
+    },
+    "visionTitle": {
+      "type": "string",
+      "required": true
+    },
+    "visionContent": {
+      "type": "richtext"
+    }
+  }
+}

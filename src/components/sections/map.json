@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sections_maps",
+  "info": {
+    "displayName": "Map Section",
+    "icon": "pinMap",
+    "description": "Google Maps embed section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "embedUrl": {
+      "type": "text"
+    }
+  }
+}

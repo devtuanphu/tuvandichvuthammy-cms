@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_sections_intros",
+  "info": {
+    "displayName": "Intro Section",
+    "icon": "information",
+    "description": "Introduction section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

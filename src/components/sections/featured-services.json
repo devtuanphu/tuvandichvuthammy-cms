@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_featured_services",
+  "info": {
+    "displayName": "Featured Services",
+    "icon": "apps",
+    "description": "Featured services section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

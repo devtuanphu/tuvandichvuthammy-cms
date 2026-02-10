@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_ctas",
+  "info": {
+    "displayName": "CTA Section",
+    "icon": "cursor",
+    "description": "Call to action section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Đặt lịch tư vấn"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

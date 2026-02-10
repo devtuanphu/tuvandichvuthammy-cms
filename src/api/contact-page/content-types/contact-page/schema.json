@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": "Contact page content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.contact-info"
+    },
+    "mapSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.map"
+    },
+    "contactFormSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.contact-form"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

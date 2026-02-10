@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "star",
+    "description": "Hero banner section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "ctaText": {
+      "type": "string",
+      "default": "Đặt lịch tư vấn"
+    },
+    "ctaUrl": {
+      "type": "string",
+      "default": "/contact"
+    }
+  }
+}

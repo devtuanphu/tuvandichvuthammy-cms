@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_why_choose_us",
+  "info": {
+    "displayName": "Why Choose Us",
+    "icon": "thumbUp",
+    "description": "Why choose us section with feature items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.feature-item"
+    }
+  }
+}

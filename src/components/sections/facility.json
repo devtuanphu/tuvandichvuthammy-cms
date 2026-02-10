@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_facilities",
+  "info": {
+    "displayName": "Facility Section",
+    "icon": "house",
+    "description": "Facility/location section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_feature_items",
+  "info": {
+    "displayName": "Feature Item",
+    "icon": "check",
+    "description": "A single feature/reason item"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
